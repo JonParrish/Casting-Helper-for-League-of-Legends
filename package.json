@@ -1,0 +1,85 @@
+{
+  "name": "react-api-test",
+  "productName": "Electron tutorial app",
+  "description": "Application for electron tutorials",
+  "main": "src/start.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/react": "^11.1.1",
+    "autocomplete": "0.0.1",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "react": "^17.0.1",
+    "react-css-dropdown": "^1.1.2",
+    "react-dom": "^17.0.1",
+    "react-dropdown-autocomplete": "^1.2.7",
+    "react-font-size-changer": "^0.2.0",
+    "react-scripts": "^4.0.0",
+    "react-select": "^3.1.1",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "build": {
+      "appId": "nonExistentID",
+      "directories": {
+        "buildResources": "assets"
+      },
+      "files": [
+        "build/**/*",
+        "node_modules/**/*"
+      ]
+    },
+    "electron": "^2.0.8",
+    "electron-builder": "^22.9.1",
+    "react-scripts": "^4.0.1"
+  },
+  "homepage": "./",
+  "scripts": {
+    "start": "nf start -p 3000",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-start": "node src/start-react",
+    "react-start": "react-scripts start",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "install-app-deps",
+    "preelectron-pack": "npm run build",
+    "electron-pack": "build em.main=build/main.js"
+  },
+  "build": {
+    "appId": "com.electron.electron-with-create-react-app",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "win": {
+      "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png"
+    },
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
+  "babel": {
+    "presets": [
+      "babel-preset-react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
