@@ -183,1222 +183,158 @@ export default class App extends React.Component {
         { value: `Zyra`, label: `Zyra` }
       ],
       abilites: [
-       {
-name: `Aatrox`,
-p: `Blood Well`,
-q: `Dark Flight`,
-w: `Blades of Torment`,
-e: `Blood Thirst / Blood Price`,
-r: `Massacre`
-},
-{
-name: `Ahri`,
-p: `Essence Theft`,
-q: `Orb of Deception`,
-w: `Charm`,
-e: `Fox-Fire`,
-r: `Spirit Rush`
-},
-{
-name: `Akali`,
-p: `Twin Disciplines`,
-q: `Mark of the Assassin`,
-w: `Crescent Slash`,
-e: `Twilight Shroud`,
-r: `Shadow Dance`
-},
-{
-name: `Alistar`,
-p: `Triumphant Roar`,
-q: `Pulverize`,
-w: `Trample`,
-e: `Headbutt`,
-r: `Unbreakable Will`
-},
-{
-name: `Amumu`,
-p: `Cursed Touch`,
-q: `Bandage Toss`,
-w: `Tantrum`,
-e: `Despair`,
-r: `Curse of the Sad Mummy`
-},
-{
-name: `Anivia`,
-p: `Rebirth`,
-q: `Flash Frost`,
-w: `Frostbite`,
-e: `Crystallize`,
-r: `Glacial Storm`
-},
-{
-name: `Annie`,
-p: `Pyromania`,
-q: `Disintegrate`,
-w: `Molten Shield`,
-e: `Incinerate`,
-r: `Summon Tibbers`
-},
-{
-name: `Aphelios`,
-p: `The Hitman and the Seer `,
-q: `Weapons of the Faithful`,
-w: `Phase `,
-e: `Calibrum, Severum, Gravitum, Infernum, Crescendum`,
-r: `Moonlight Vigil`
-},
-{
-name: `Ashe`,
-p: `Frost Shot`,
-q: `Ranger's Focus`,
-w: `Hawkshot`,
-e: `Volley`,
-r: `Enchanted Crystal Arrow`
-},
-{
-name: `AurelionSol`,
-p: `Center of the Universe`,
-q: `Starsurge`,
-w: `Comet of Legend`,
-e: `Celestial Expansion`,
-r: `Voice of Light`
-},
-{
-name: `Azir`,
-p: `Shurima's Legacy`,
-q: `Conquering Sands`,
-w: `Shifting Sands`,
-e: `Arise!`,
-r: `Emperor's Divide`
-},
-{
-name: `Bard`,
-p: `Traveler's Call`,
-q: `Cosmic Binding`,
-w: `Magical Journey`,
-e: `Caretaker's Shrine`,
-r: `Tempered Fate`
-},
-{
-name: `Blitzcrank`,
-p: `Mana Barrier`,
-q: `Rocket Grab`,
-w: `Power Fist`,
-e: `Overdrive`,
-r: `Static Field`
-},
-{
-name: `Brand`,
-p: `Blaze`,
-q: `Sear`,
-w: `Conflagration`,
-e: `Pillar of Flame`,
-r: `Pyroclasm`
-},
-{
-name: `Braum`,
-p: `Concussive Blows`,
-q: `Winter's Bite`,
-w: `Unbreakable`,
-e: `Stand Behind Me`,
-r: `Glacial Fissure`
-},
-{
-name: `Caitlyn`,
-p: `Headshot`,
-q: `Piltover Peacemaker`,
-w: `90 Caliber Net`,
-e: `Yordle Snap Trap`,
-r: `Ace in the Hole`
-},
-{
-name: `Camille`,
-p: `Adaptive Defenses`,
-q: `Precision Protocol`,
-w: `Hookshot`,
-e: `Tactical Sweep`,
-r: `The Hextech Ultimatum`
-},
-{
-name: `Cassiopeia`,
-p: `Serpentine Grace`,
-q: `Noxious Blast`,
-w: `Twin Fang`,
-e: `Miasma`,
-r: `Petrifying Gaze`
-},
-{
-name: `Chogath`,
-p: `Carnivore`,
-q: `Rupture`,
-w: `Vorpal Spikes`,
-e: `Feral Scream`,
-r: `Feast`
-},
-{
-name: `Corki`,
-p: `Hextech Munitions`,
-q: `Phosphorus Bomb`,
-w: `Gatling Gun`,
-e: `Valkyrie / Special Delivery`,
-r: `Missile Barrage`
-},
-{
-name: `Darius`,
-p: `Hemorrhage`,
-q: `Decimate`,
-w: `Apprehend`,
-e: `Crippling Strike`,
-r: `Noxian Guillotine`
-},
-{
-name: `Diana`,
-p: ` Scorn of the Moon`,
-q: `Moonsilver Blade`,
-w: `Pale Cascade`,
-e: `Crescent Strike`,
-r: `Moonfall`
-},
-{
-name: `DrMundo`,
-p: `Adrenaline Rush`,
-q: `Infected Cleaver`,
-w: `Masochism`,
-e: `Burning Agony`,
-r: `Sadism`
-},
-{
-name: `Draven`,
-p: `League of Draven`,
-q: `Spinning Axe`,
-w: `Stand Aside`,
-e: `Blood Rush`,
-r: `Whirling Death`
-},
-{
-name: `Ekko`,
-p: `Z-Drive Resonance`,
-q: `Timewinder`,
-w: `Phase Dive`,
-e: `Parallel Convergence`,
-r: `Chronobreak`
-},
-{
-name: `Elise`,
-p: `Spider Queen`,
-q: `Neurotoxin / Venomous Bite`,
-w: `Cocoon / Rappel`,
-e: `Volatile Spiderling / Skittering Frenzy`,
-r: `Spider Form / Human Form`
-},
-{
-name: `Evelynn`,
-p: ` Agony's Embrace`,
-q: `Demon Shade`,
-w: `Allure`,
-e: `Hate Spike`,
-r: `Whiplash`
-},
-{
-name: `Ezreal`,
-p: `Rising Spell Force`,
-q: `Mystic Shot`,
-w: `Arcane Shift`,
-e: `Essence Flux`,
-r: `Trueshot Barrage`
-},
-{
-name: `Fiddlesticks`,
-p: `Dread`,
-q: `Terrify`,
-w: `Dark Wind`,
-e: `Drain`,
-r: `Crowstorm`
-},
-{
-name: `Fiora`,
-p: `Duelist's Dance`,
-q: `Lunge`,
-w: `Bladework`,
-e: `Riposte`,
-r: `Grand Challenge`
-},
-{
-name: `Fizz`,
-p: `Nimble Fighter`,
-q: `Urchin Strike`,
-e: `Seastone Trident`,
-w: `Playful / Trickster`,
-r: `Chum the Waters`
-},
-{
-name: `Galio`,
-p: `Colossal Smash`,
-q: `Winds of War`,
-w: `Justice Punch`,
-e: `Shield of Durand`,
-r: `Hero's Entrance`
-},
-{
-name: `Gangplank`,
-p: `Trial by Fire`,
-q: `Parrrley`,
-w: `Powder Keg`,
-e: `Remove Scurvy`,
-r: `Cannon Barrage`
-},
-{
-name: `Garen`,
-p: `Perseverance`,
-q: `Decisive Strike`,
-w: `Judgment`,
-e: `Courage`,
-r: `Demacian Justice`
-},
-{
-name: `Gnar`,
-p: `Rage Gene`,
-q: `Boomerang Throw / Boulder Toss`,
-w: `Hop / Crunch`,
-e: `Hyper / Wallop`,
-r: `GNAR!`
-},
-{
-name: `Gragas`,
-p: `Happy Hour`,
-q: `Barrel Roll`,
-w: `Body Slam`,
-e: `Drunken Rage`,
-r: `Explosive Cask`
-},
-{
-name: `Graves`,
-p: `New Destiny`,
-q: `End of the Line`,
-w: `Quickdraw`,
-e: `Smoke Screen`,
-r: `Collateral Damage`
-},
-{
-name: `Hecarim`,
-p: `Warpath`,
-q: `Rampage`,
-w: `Devastating Charge`,
-e: `Spirit of Dread`,
-r: `Onslaught of Shadows`
-},
-{
-name: `Heimerdinger`,
-p: `Hextech Affinity`,
-q: `H-28G Evolution Turret`,
-w: `CH-2 Electron Storm Grenade`,
-e: `Hextech Micro-Rockets`,
-r: `UPGRADE!!!`
-},
-{
-name: `Illaoi`,
-p: `Prophet of an Elder God`,
-q: `Tentacle Smash`,
-w: `Test of Spirit`,
-e: `Harsh Lesson`,
-r: `Leap of Faith`
-},
-{
-name: `Irelia`,
-p: `Ionian Fervor`,
-q: `Bladesurge`,
-w: `Equilibrium Strike`,
-e: `Hiten Style`,
-r: `Transcendent Blades`
-},
-{
-name: `Ivern`,
-p: `Friend of the Forest`,
-q: `Rootcaller`,
-w: `Triggerseed`,
-e: `Brushmaker`,
-r: `Daisy!`
-},
-{
-name: `Janna`,
-p: `Tailwind`,
-q: `Howling Gale`,
-w: `Eye of the Storm`,
-e: `Zephyr`,
-r: `Monsoon`
-},
-{
-name: `JarvanIV`,
-p: `Martial Cadence`,
-q: `Dragon Strike`,
-w: `Demacian Standard`,
-e: `Golden Aegis`,
-r: `Cataclysm`
-},
-{
-name: `Jax`,
-p: ` Grandmaster at Arms`,
-q: `Relentless Assault`,
-w: `Empower`,
-e: `Leap Strike`,
-r: `Counter Strike`
-},
-{
-name: `Jayce`,
-p: `Hextech Capacitor`,
-q: `To the Skies! / Shock Blast`,
-w: `Thundering Blow / Acceleration Gate`,
-e: `Lightning Field / Hyper Charge`,
-r: `Transform Mercury Cannon / Transform Mercury Hammer`
-},
-{
-name: `Jhin`,
-p: `Whisper`,
-q: `Dancing Grenade`,
-w: `Captive Audience`,
-e: `Deadly Flourish`,
-r: `Curtain Call`
-},
-{
-name: `Jinx`,
-p: `Get Excited!`,
-q: `Switcheroo!`,
-w: `Flame Chompers!`,
-e: `Zap!`,
-r: `Super Mega Death Rocket!`
-},
-{
-name: `Kaisa`,
-p: `Second Skin`,
-q: `Icathian Rain`,
-w: `Supercharge`,
-e: `Void Seeker`,
-r: `Killer Instinct`
-},
-{
-name: `Kalista`,
-p: `Martial Poise`,
-q: `Pierce`,
-w: `Rend`,
-e: `Sentinel`,
-r: `Fate's Call`
-},
-{
-name: `Karma`,
-p: `Gathering Fire`,
-q: `Inner Flame`,
-w: `Inspire`,
-e: `Focused Resolve`,
-r: `Mantra`
-},
-{
-name: `Karthus`,
-p: `Death Defied`,
-q: `Lay Waste`,
-w: `Defile`,
-e: `Wall of Pain`,
-r: `Requiem`
-},
-{
-name: `Kassadin`,
-p: `Void Stone`,
-q: `Null Sphere`,
-w: `Force Pulse`,
-e: `Nether Blade`,
-r: `Riftwalk`
-},
-{
-name: `Katarina`,
-p: `Voracity`,
-q: `Bouncing Blade`,
-w: `Shunpo`,
-e: `Preparation`,
-r: `Death Lotus`
-},
-{
-name: `Kayle`,
-p: `Holy Fervor`,
-q: `Reckoning`,
-e: `Divine Blessing`,
-w: `Righteous Fury`,
-r: `Intervention`
-},
-{
-name: `Kayn`,
-p: `The Darkin Scythe`,
-q: `Reaping Slash`,
-w: `Shadow Step`,
-e: `Blade's Reach`,
-r: `Umbral Trespass`
-},
-{
-name: `Kennen`,
-p: `Mark of the Storm`,
-q: `Thundering Shuriken`,
-w: `Lightning Rush`,
-e: `Electrical Surge`,
-r: `Slicing Maelstrom`
-},
-{
-name: `Khazix`,
-p: `Unseen Threat`,
-q: `Taste Their Fear`,
-w: `Leap`,
-e: `Void Spike`,
-r: `Void Assault`
-},
-{
-name: `Kindred`,
-p: `Mark of the Kindred`,
-q: `Dance of Arrows`,
-w: `Mounting Dread`,
-e: `Wolf's Frenzy`,
-r: `Lamb's Respite`
-},
-{
-name: `Kled`,
-p: `Skaarl the Cowardly Lizard`,
-q: `Beartrap on a Rope / Pocket Pistol`,
-w: `Jousting`,
-e: `Violent Tendencies`,
-r: `Chaaaaaaaarge!!!`
-},
-{
-name: `KogMaw`,
-p: `Icathian Surprise`,
-q: `Caustic Spittle`,
-w: `Void Ooze`,
-e: `Bio-Arcane Barrage`,
-r: `Living Artillery`
-},
-{
-name: `LeBlanc`,
-p: `Sigil of Malice`,
-q: `Shatter Orb`,
-w: `Ethereal Chains`,
-e: `Distortion`,
-r: `Mimic / Mimic Shatter Orb`
-},
-{
-name: `LeeSin`,
-p: `Flurry`,
-q: `Sonic Wave / Resonating Strike`,
-w: `Tempest / Cripple`,
-e: `Safeguard / Iron Will`,
-r: `Dragon's Rage`
-},
-{
-name: `Leona`,
-p: `Sunlight`,
-q: `Shield of Daybreak`,
-w: `Zenith Blade`,
-e: `Eclipse`,
-r: `Solar Flare`
-},
-{
-name: `Lillia`,
-p: `Dream-Laden Bough`,
-q: `Blooming Blows`,
-w: `Swirlseed`,
-e: `Watch Out! Eep! `,
-r: `Lifting Lullaby`
-},
-{
-name: `Lissandra`,
-p: `Iceborn`,
-q: `Ice Shard`,
-w: `Glacial Path`,
-e: `Ring of Frost`,
-r: `Frozen Tomb`
-},
-{
-name: `Lucian`,
-p: `Lightslinger`,
-q: `Piercing Light`,
-w: `Relentless Pursuit`,
-e: `Ardent Blaze`,
-r: `The Culling`
-},
-{
-name: `Lulu`,
-p: `Pix`,
-q: ` Faerie Companion`,
-w: `Whimsy`,
-e: `Glitterlance`,
-r: `Help`
-},
-{
-name: `Lux`,
-p: `Illumination`,
-q: `Light Binding`,
-w: `Lucent Singularity`,
-e: `Prismatic Barrier`,
-r: `Final Spark`
-},
-{
-name: `Malphite`,
-p: ` Shard of the Monolith`,
-q: `Granite Shield`,
-w: `Brutal Strikes`,
-e: `Seismic Shard`,
-r: `Ground Slam`
-},
-{
-name: `Malzahar`,
-p: `Void Shift`,
-q: `Call of the Void`,
-w: `Malefic Visions`,
-e: `Void Swarm`,
-r: `Nether Grasp`
-},
-{
-name: `Maokai`,
-p: `Sap Magic`,
-q: `Bramble Smash`,
-w: `Sapling Toss`,
-e: `Twisted Advance`,
-r: `Nature's Grasp`
-},
-{
-name: `MasterYi`,
-p: `Double Strike`,
-q: `Alpha Strike`,
-w: `Wuju Style`,
-e: `Meditate`,
-r: `Highlander`
-},
-{
-name: `MissFortune`,
-p: `Love Tap`,
-q: `Double Up`,
-w: `Make It Rain`,
-e: `Strut`,
-r: `Bullet Time`
-},
-{
-name: `Mordekaiser`,
-p: `Iron Man`,
-q: `Mace of Spades`,
-w: `Siphon of Destruction`,
-e: `Harvester of Sorrow`,
-r: `Children of the Grave`
-},
-{
-name: `Morgana`,
-p: ` Fallen Angel`,
-q: `Soul Siphon`,
-w: `Tormented Soil`,
-e: `Dark Binding`,
-r: `Black Shield`
-},
-{
-name: `Nami`,
-p: `Surging Tides`,
-q: `Aqua Prison`,
-w: `Tidecaller's Blessing`,
-e: `Ebb and Flow`,
-r: `Tidal Wave`
-},
-{
-name: `Nasus`,
-p: `Soul Eater`,
-q: `Siphoning Strike`,
-w: `Spirit Fire`,
-e: `Wither`,
-r: `Fury of the Sands`
-},
-{
-name: `Nautilus`,
-p: `Staggering Blow`,
-q: `Dredge Line`,
-w: `Riptide`,
-e: `Titan's Wrath`,
-r: `Depth Charge`
-},
-{
-name: `Neeko`,
-p: `Inherent Glamour`,
-q: `Blooming Burst`,
-w: `Tangle-Barbs`,
-e: `Shapesplitter`,
-r: `Pop Blossom`
-},
-{
-name: `Nidalee`,
-p: `Prowl`,
-q: `Javelin Toss / Takedown`,
-w: `Primal Surge / Swipe`,
-e: `Bushwhack / Pounce`,
-r: `Aspect of the Cougar`
-},
-{
-name: `Nocturne`,
-p: `Umbra Blades`,
-q: `Duskbringer`,
-w: `Unspeakable Horror`,
-e: `Shroud of Darkness`,
-r: `Paranoia`
-},
-{
-name: `Nunu`,
-p: `Visionary`,
-q: `Consume`,
-w: `Ice Blast`,
-e: `Blood Boil`,
-r: `Absolute Zero`
-},
-{
-name: `Olaf`,
-p: `Berserker Rage`,
-q: `Undertow`,
-w: `Reckless Swing`,
-e: `Vicious Strikes`,
-r: `Ragnarok`
-},
-{
-name: `Orianna`,
-p: `Clockwork Windup`,
-q: `Command Attack`,
-w: `Command Protect`,
-e: `Command Dissonance`,
-r: `Command Shockwave`
-},
-{
-name: `Ornn`,
-p: `Living Forge`,
-q: `Volcanic Rupture`,
-w: `Searing Charge`,
-e: `Bellows Breath`,
-r: `Call of the Forge God`
-},
-{
-name: `Pantheon`,
-p: `Aegis Protection`,
-q: `Spear Shot`,
-w: `Heartseeker Strike`,
-e: `Aegis of Zeonia`,
-r: `Grand Skyfall`
-},
-{
-name: `Poppy`,
-p: ` Keeper of the Hammer`,
-q: `Iron Ambassador`,
-w: `Steadfast Presence`,
-e: `Hammer Shock`,
-r: `Heroic Charge`
-},
-{
-name: `Pyke`,
-p: `Gift of the Drowned Ones`,
-q: `Bone Skewer`,
-w: `Phantom Undertow`,
-e: `Ghostwater Dive`,
-r: `Death From Below`
-},
-{
-name: `Qiyana`,
-p: `Royal Privlege`,
-q: `Edge of Ixtal`,
-e: `Elemental Wrath`,
-w: `Terrashape`,
-r: `Audacity`
-},
-{
-name: `Quinn`,
-p: ` Demacia's Wings`,
-q: `Harrier`,
-w: `Heightened Senses`,
-e: `Blinding Assault`,
-r: `Vault`
-},
-{
-name: `Rakan`,
-p: `Fey Feathers`,
-q: `Gleaming Quill`,
-w: `Battle Dance`,
-e: `Grand Entrance`,
-r: `The Quickness`
-},
-{
-name: `Rammus`,
-p: `Spiked Shell`,
-q: `Powerball`,
-w: `Frenzying Taunt`,
-e: `Defensive Ball Curl`,
-r: `Tremors`
-},
-{
-name: `RekSai`,
-p: `Fury of the Xer'Sai`,
-q: `Queen's Wrath / Prey Seeker`,
-w: `Furious Bite / Tunnel`,
-e: `Burrow / Unburrow`,
-r: `Void Rush`
-},
-{
-name: `Renekton`,
-p: `Reign of Anger`,
-q: `Cull the Meek`,
-w: `Slice`,
-e: `Ruthless Predator`,
-r: `Dominus`
-},
-{
-name: `Rengar`,
-p: `Unseen Predator`,
-q: `Savagery`,
-w: `Bola Strike`,
-e: `Battle Roar`,
-r: `Thrill of the Hunt`
-},
-{
-name: `Riven`,
-p: `Runic Blade`,
-q: `Broken Wings`,
-w: `Valor`,
-e: `Ki Burst`,
-r: `Blade of the Exile / Wind Slash`
-},
-{
-name: `Rumble`,
-p: `Junkyard Titan`,
-q: `Flamespitter`,
-w: `Electro Harpoon`,
-e: `Scrap Shield`,
-r: `The Equalizer`
-},
-{
-name: `Ryze`,
-p: `Arcane Mastery`,
-q: `Overload`,
-w: `Spell Flux`,
-e: `Rune Prison`,
-r: `Realm Warp`
-},
-{
-name: `Samira`,
-p: `Daredevil Impulse`,
-q: `Flair`,
-w: `Wild Rush`,
-e: `Blade Whirl`,
-r: `Infero Trigger`
-},
-{
-name: `Sejuani`,
-p: ` Fury of the North`,
-q: `Fury of the North`,
-w: `Winter's Wrath`,
-e: `Arctic Assault`,
-r: `Permafrost`
-},
-{
-name: `Senna`,
-p: `Absolution`,
-q: `Piercing Darkness`,
-w: `Curse of the Black Mist`,
-e: `Last Embrace`,
-r: `Dawning Shadow`
-},
-{
-name: `Seraphine`,
-p: `Stage Presence`,
-q: `High Note`,
-w: `Beat Drop`,
-e: `Surround Sound`,
-r: `Encore`
-},
-{
-name: `Sett`,
-p: `Pit Grit`,
-q: `Knuckle Down`,
-w: `Facebreaker`,
-e: `Haymaker`,
-r: `The Show Stopper`
-},
-{
-name: `Shaco`,
-p: `Backstab`,
-q: `Deceive`,
-w: `Two-Shiv Poison`,
-e: `Jack in the Box`,
-r: `Hallucinate`
-},
-{
-name: `Shen`,
-p: `Ki Barrier`,
-q: `Twilight Assault`,
-w: `Shadow Dash`,
-e: `Spirit's Refuge`,
-r: `Stand United`
-},
-{
-name: `Shyvana`,
-p: `Fury of the Dragonborn`,
-q: `Twin Bite`,
-w: `Flame Breath`,
-e: `Burnout`,
-r: `Dragon's Descent`
-},
-{
-name: `Singed`,
-p: `Noxious Slipstream`,
-q: `Poison Trail`,
-w: `Fling`,
-e: `Mega Adhesive`,
-r: `Insanity Potion`
-},
-{
-name: `Sion`,
-p: `Glory in Death / Death Surge`,
-q: `Decimating Smash`,
-w: `Roar of the Slayer`,
-e: `Soul Furnace`,
-r: `Unstoppable Onslaught`
-},
-{
-name: `Sivir`,
-p: `Fleet of Foot`,
-q: `Boomerang Blade`,
-w: `Spell Shield`,
-e: `Ricochet`,
-r: `On the Hunt`
-},
-{
-name: `Skarner`,
-p: `Crystal Spires`,
-q: `Crystal Slash`,
-w: `Fracture`,
-e: `Crystalline Exoskeleton`,
-r: `Impale`
-},
-{
-name: `Sona`,
-p: ` Maven of the Strings`,
-q: `Power Chord`,
-w: `Aria of Perseverance`,
-e: `Hymn of Valor`,
-r: `Song of Celerity`
-},
-{
-name: `Soraka`,
-p: `Salvation`,
-q: `Starcall`,
-w: `Equinox`,
-e: `Astral Infusion`,
-r: `Wish`
-},
-{
-name: `Swain`,
-p: `Carrion Renewal`,
-q: `Decrepify`,
-w: `Torment`,
-e: `Nevermove`,
-r: `Ravenous Flock`
-},
-{
-name: `Sylas`,
-p: `Petricite Burst`,
-q: `Chain Leash`,
-w: `Abscond / Abduct`,
-e: `Kingslayer`,
-r: `Hijack`
-},
-{
-name: `Syndra`,
-p: `Transcendent`,
-q: `Dark Sphere`,
-w: `Scatter the Weak`,
-e: `Force of Will`,
-r: `Unleashed Power`
-},
-{
-name: `TahmKench`,
-p: `An Acquired Taste`,
-q: `Tongue Lash`,
-w: `Thick Skin`,
-e: `Devour / Regurgitate`,
-r: `Abyssal Voyage`
-},
-{
-name: `Taliyah`,
-p: `Rock Surfing`,
-q: `Threaded Volley`,
-w: `Unraveled Earth`,
-e: `Seismic Shove`,
-r: `Weaver's Wall`
-},
-{
-name: `Talon`,
-p: `Blade's End`,
-q: `Noxian Diplomacy`,
-w: `Assassin's Path`,
-e: `Rake`,
-r: `Shadow Assault`
-},
-{
-name: `Taric`,
-p: `Bravado`,
-q: `Starlight's Touch`,
-w: `Dazzle`,
-e: `Bastion`,
-r: `Cosmic Radiance`
-},
-{
-name: `Teemo`,
-p: `Guerrilla Warfare`,
-q: `Blinding Dart`,
-w: `Toxic Shot`,
-e: `Move Quick`,
-r: `Noxious Trap`
-},
-{
-name: `Thresh`,
-p: `Damnation`,
-q: `Death Sentence`,
-w: `Flay`,
-e: `Dark Passage`,
-r: `The Box`
-},
-{
-name: `Tristana`,
-p: `Draw a Bead`,
-q: `Rapid Fire`,
-w: `Explosive Charge`,
-e: `Rocket Jump`,
-r: `Buster Shot`
-},
-{
-name: `Trundle`,
-p: `King's Tribute`,
-q: `Chomp`,
-w: `Pillar of Ice`,
-e: `Frozen Domain`,
-r: `Subjugate`
-},
-{
-name: `Tryndamere`,
-p: `Battle Fury`,
-q: `Bloodlust`,
-w: `Spinning Slash`,
-e: `Mocking Shout`,
-r: `Undying Rage`
-},
-{
-name: `TwistedFate`,
-p: `Loaded Dice`,
-q: `Wild Cards`,
-w: `Stacked Deck`,
-e: `Pick a Card`,
-r: `Destiny`
-},
-{
-name: `Twitch`,
-p: `Deadly Venom`,
-q: `Ambush`,
-w: `Contaminate`,
-e: `Venom Cask`,
-r: `Spray and Pray`
-},
-{
-name: `Udyr`,
-p: `Monkey's Agility`,
-q: `Tiger Stance`,
-w: `Bear Stance`,
-e: `Turtle Stance`,
-r: `Phoenix Stance`
-},
-{
-name: `Urgot`,
-p: `Echoing Flames`,
-q: `Corrosive Charge`,
-w: `Disdain`,
-e: `Purge`,
-r: `Fear Beyond Death`
-},
-{
-name: `Varus`,
-p: `Living Vengeance`,
-q: `Piercing Arrow`,
-w: `Hail of Arrows`,
-e: `Blighted Quiver`,
-r: `Chain of Corruption`
-},
-{
-name: `Vayne`,
-p: `Night Hunter`,
-q: `Tumble`,
-w: `Condemn`,
-e: `Silver Bolts`,
-r: `Final Hour`
-},
-{
-name: `Veigar`,
-p: `Phenomenal Evil Power`,
-q: `Baleful Strike`,
-w: `Event Horizon`,
-e: `Dark Matter`,
-r: `Primordial Burst`
-},
-{
-name: `Velkoz`,
-p: `Organic Deconstruction`,
-q: `Plasma Fission`,
-w: `Tectonic Disruption`,
-e: `Void Rift`,
-r: `Life Form Disintegration Ray`
-},
-{
-name: `Vi`,
-p: `Blast Shield`,
-q: `Vault Breaker`,
-w: `Excessive Force`,
-e: `Denting Blows`,
-r: `Assault and Battery`
-},
-{
-name: `Viktor`,
-p: `Glorious Evolution`,
-q: `Siphon Power`,
-w: `Death Ray`,
-e: `Gravity Field`,
-r: `Chaos Storm`
-},
-{
-name: `Vladimir`,
-p: `Crimson Pact`,
-q: `Transfusion`,
-w: `Tides of Blood`,
-e: `Sanguine Pool`,
-r: `Hemoplague`
-},
-{
-name: `Volibear`,
-p: `Chosen of the Storm`,
-q: `Rolling Thunder`,
-w: `Majestic Roar`,
-e: `Frenzy`,
-r: `Thunder Claws`
-},
-{
-name: `Warwick`,
-p: `Eternal Hunger`,
-q: `Jaws of the Beast`,
-w: `Primal Howl`,
-e: `Blood Hunt`,
-r: `Infinite Duress`
-},
-{
-name: `Wukong`,
-p: `Stone Skin`,
-q: `Crushing Blow`,
-w: `Nimbus Strike`,
-e: `Decoy`,
-r: `Cyclone`
-},
-{
-name: `Xayah`,
-p: `Clean Cuts`,
-q: `Double Daggers`,
-w: `Bladecaller`,
-e: `Deadly Plumage`,
-r: `Featherstorm`
-},
-{
-name: `Xerath`,
-p: `Mana Surge`,
-q: `Arcanopulse`,
-w: `Shocking Orb`,
-e: `Eye of Destruction`,
-r: `Rite of the Arcane`
-},
-{
-name: `XinZhao`,
-p: `Determination`,
-q: `Three Talon Strike`,
-w: `Audacious Charge`,
-e: `Wind Becomes Lightning`,
-r: `Crescent Guard`
-},
-{
-name: `Yasuo`,
-p: `Way of the Wanderer`,
-q: `Steel Tempest`,
-w: `Sweeping Blade`,
-e: `Wind Wall`,
-r: `Last Breath`
-},
-{
-name: `Yone`,
-p: `Way of the Hunter`,
-q: `Mortal Steel`,
-w: `Soul Unbound`,
-e: `Spirit Cleave`,
-r: `Fate Sealed`
-},
-{
-name: `Yorick`,
-p: ` Shepherd of Souls`,
-q: `Shepherd of Souls`,
-e: `Last Rites`,
-w: `Dark Procession`,
-r: `Mourning Mist`
-},
-{
-name: `Yuumi`,
-p: `Bop 'n' Block`,
-q: `Prowling Projectile`,
-w: `Zoomies`,
-e: `You and Me!`,
-r: `Final Chapter`
-},
-{
-name: `Zac`,
-p: `Cell Division`,
-q: `Stretching Strikes`,
-w: `Elastic Slingshot`,
-e: `Unstable Matter`,
-r: `Let's Bounce!`
-},
-{
-name: `Zed`,
-p: `Contempt for the Weak`,
-q: `Razor Shuriken`,
-w: `Shadow Slash`,
-e: `Living Shadow`,
-r: `Death Mark`
-},
-{
-name: `Ziggs`,
-p: `Short Fuse`,
-q: `Bouncing Bomb`,
-w: `Hexplosive Minefield`,
-e: `Satchel Charge`,
-r: `Mega Inferno Bomb`
-},
-{
-name: `Zilean`,
-p: `Time in a Bottle`,
-q: `Time Bomb`,
-w: `Time Warp`,
-e: `Rewind`,
-r: `Chronoshift`
-},
-{
-name: `Zoe`,
-p: `More Sparkles!`,
-q: `Paddle Star`,
-w: `Sleepy Trouble Bubble`,
-e: `Spell Thief`,
-r: `Portal Jump`
-},
-{
-name: `Zyra`,
-p: ` Rise of the Thorns`,
-q: `Garden of Thorns`,
-w: `Rampant Growth`,
-e: `Deadly Spines`,
-r: `Grasping Roots`
-}
+{ name: `Aatrox`, p: `Blood Well`, q: `Dark Flight`, w: `Blood Thirst / Blood Price`, e:`Blades of Torment`, r:`Massacre`},
+{ name: `Ahri`, p: `Essence Theft`, q: `Orb of Deception`, w: `Fox-Fire`, e:`Charm`, r:`Spirit Rush`},
+{ name: `Akali`, p: `Twin Disciplines`, q: `Mark of the Assassin`, w: `Twilight Shroud`, e:`Crescent Slash`, r:`Shadow Dance`},
+{ name: `Alistar`, p: `Triumphant Roar`, q: `Pulverize`, w: `Headbutt`, e:`Trample`, r:`Unbreakable Will`},
+{ name: `Amumu`, p: `Cursed Touch`, q: `Bandage Toss`, w: `Despair`, e:`Tantrum`, r:`Curse of the Sad Mummy`},
+{ name: `Anivia`, p: `Rebirth`, q: `Flash Frost`, w: `Crystallize`, e:`Frostbite`, r:`Glacial Storm`},
+{ name: `Annie`, p: `Pyromania`, q: `Disintegrate`, w: `Incinerate`, e:`Molten Shield`, r:`Summon Tibbers`},
+{ name: `Aphelios`, p: `The Hitman and the Seer `, q: `Weapons of the Faithful`, w: `Calibrum, Severum, Gravitum, Infernum, Crescendum`, e:`Phase `, r:`Moonlight Vigil`},
+{ name: `Ashe`, p: `Frost Shot`, q: `Ranger's Focus`, w: `Volley`, e:`Hawkshot`, r:`Enchanted Crystal Arrow`},
+{ name: `AurelionSol`, p: `Center of the Universe`, q: `Starsurge`, w: `Celestial Expansion`, e:`Comet of Legend`, r:`Voice of Light`},
+{ name: `Azir`, p: `Shurima's Legacy`, q: `Conquering Sands`, w: `Arise!`, e:`Shifting Sands`, r:`Emperor's Divide`},
+{ name: `Bard`, p: `Traveler's Call`, q: `Cosmic Binding`, w: `Caretaker's Shrine`, e:`Magical Journey`, r:`Tempered Fate`},
+{ name: `Blitzcrank`, p: `Mana Barrier`, q: `Rocket Grab`, w: `Overdrive`, e:`Power Fist`, r:`Static Field`},
+{ name: `Brand`, p: `Blaze`, q: `Sear`, w: `Pillar of Flame`, e:`Conflagration`, r:`Pyroclasm`},
+{ name: `Braum`, p: `Concussive Blows`, q: `Winter's Bite`, w: `Stand Behind Me`, e:`Unbreakable`, r:`Glacial Fissure`},
+{ name: `Caitlyn`, p: `Headshot`, q: `Piltover Peacemaker`, w: `Yordle Snap Trap`, e:`90 Caliber Net`, r:`Ace in the Hole`},
+{ name: `Camille`, p: `Adaptive Defenses`, q: `Precision Protocol`, w: `Tactical Sweep`, e:`Hookshot`, r:`The Hextech Ultimatum`},
+{ name: `Cassiopeia`, p: `Serpentine Grace`, q: `Noxious Blast`, w: `Miasma`, e:`Twin Fang`, r:`Petrifying Gaze`},
+{ name: `Chogath`, p: `Carnivore`, q: `Rupture`, w: `Feral Scream`, e:`Vorpal Spikes`, r:`Feast`},
+{ name: `Corki`, p: `Hextech Munitions`, q: `Phosphorus Bomb`, w: `Valkyrie / Special Delivery`, e:`Gatling Gun`, r:`Missile Barrage`},
+{ name: `Darius`, p: `Hemorrhage`, q: `Decimate`, w: `Crippling Strike`, e:`Apprehend`, r:`Noxian Guillotine`},
+{ name: `Diana`, p: ` Scorn of the Moon`, q: `Moonsilver Blade`, w: `Crescent Strike`, e:`Pale Cascade`, r:`Moonfall`},
+{ name: `DrMundo`, p: `Adrenaline Rush`, q: `Infected Cleaver`, w: `Burning Agony`, e:`Masochism`, r:`Sadism`},
+{ name: `Draven`, p: `League of Draven`, q: `Spinning Axe`, w: `Blood Rush`, e:`Stand Aside`, r:`Whirling Death`},
+{ name: `Ekko`, p: `Z-Drive Resonance`, q: `Timewinder`, w: `Parallel Convergence`, e:`Phase Dive`, r:`Chronobreak`},
+{ name: `Elise`, p: `Spider Queen`, q: `Neurotoxin / Venomous Bite`, w: `Volatile Spiderling / Skittering Frenzy`, e:`Cocoon / Rappel`, r:`Spider Form / Human Form`},
+{ name: `Evelynn`, p: ` Agony's Embrace`, q: `Demon Shade`, w: `Hate Spike`, e:`Allure`, r:`Whiplash`},
+{ name: `Ezreal`, p: `Rising Spell Force`, q: `Mystic Shot`, w: `Essence Flux`, e:`Arcane Shift`, r:`Trueshot Barrage`},
+{ name: `Fiddlesticks`, p: `Dread`, q: `Terrify`, w: `Drain`, e:`Dark Wind`, r:`Crowstorm`},
+{ name: `Fiora`, p: `Duelist's Dance`, q: `Lunge`, w: `Riposte`, e:`Bladework`, r:`Grand Challenge`},
+{ name: `Fizz`, p: `Nimble Fighter`, q: `Urchin Strike`, w: `Seastone Trident`, e:`Playful / Trickster`, r:`Chum the Waters`},
+{ name: `Galio`, p: `Colossal Smash`, q: `Winds of War`, w: `Shield of Durand`, e:`Justice Punch`, r:`Hero's Entrance`},
+{ name: `Gangplank`, p: `Trial by Fire`, q: `Parrrley`, w: `Remove Scurvy`, e:`Powder Keg`, r:`Cannon Barrage`},
+{ name: `Garen`, p: `Perseverance`, q: `Decisive Strike`, w: `Courage`, e:`Judgment`, r:`Demacian Justice`},
+{ name: `Gnar`, p: `Rage Gene`, q: `Boomerang Throw / Boulder Toss`, w: `Hyper / Wallop`, e:`Hop / Crunch`, r:`GNAR!`},
+{ name: `Gragas`, p: `Happy Hour`, q: `Barrel Roll`, w: `Drunken Rage`, e:`Body Slam`, r:`Explosive Cask`},
+{ name: `Graves`, p: `New Destiny`, q: `End of the Line`, w: `Smoke Screen`, e:`Quickdraw`, r:`Collateral Damage`},
+{ name: `Hecarim`, p: `Warpath`, q: `Rampage`, w: `Spirit of Dread`, e:`Devastating Charge`, r:`Onslaught of Shadows`},
+{ name: `Heimerdinger`, p: `Hextech Affinity`, q: `H-28G Evolution Turret`, w: `Hextech Micro-Rockets`, e:`CH-2 Electron Storm Grenade`, r:`UPGRADE!!!`},
+{ name: `Illaoi`, p: `Prophet of an Elder God`, q: `Tentacle Smash`, w: `Harsh Lesson`, e:`Test of Spirit`, r:`Leap of Faith`},
+{ name: `Irelia`, p: `Ionian Fervor`, q: `Bladesurge`, w: `Hiten Style`, e:`Equilibrium Strike`, r:`Transcendent Blades`},
+{ name: `Ivern`, p: `Friend of the Forest`, q: `Rootcaller`, w: `Brushmaker`, e:`Triggerseed`, r:`Daisy!`},
+{ name: `Janna`, p: `Tailwind`, q: `Howling Gale`, w: `Zephyr`, e:`Eye of the Storm`, r:`Monsoon`},
+{ name: `JarvanIV`, p: `Martial Cadence`, q: `Dragon Strike`, w: `Golden Aegis`, e:`Demacian Standard`, r:`Cataclysm`},
+{ name: `Jax`, p: ` Grandmaster at Arms`, q: `Relentless Assault`, w: `Leap Strike`, e:`Empower`, r:`Counter Strike`},
+{ name: `Jayce`, p: `Hextech Capacitor`, q: `To the Skies! / Shock Blast`, w: `Lightning Field / Hyper Charge`, e:`Thundering Blow / Acceleration Gate`, r:`Transform Mercury Cannon / Transform Mercury Hammer`},
+{ name: `Jhin`, p: `Whisper`, q: `Dancing Grenade`, w: `Deadly Flourish`, e:`Captive Audience`, r:`Curtain Call`},
+{ name: `Jinx`, p: `Get Excited!`, q: `Switcheroo!`, w: `Zap!`, e:`Flame Chompers!`, r:`Super Mega Death Rocket!`},
+{ name: `Kaisa`, p: `Second Skin`, q: `Icathian Rain`, w: `Void Seeker`, e:`Supercharge`, r:`Killer Instinct`},
+{ name: `Kalista`, p: `Martial Poise`, q: `Pierce`, w: `Sentinel`, e:`Rend`, r:`Fate's Call`},
+{ name: `Karma`, p: `Gathering Fire`, q: `Inner Flame`, w: `Focused Resolve`, e:`Inspire`, r:`Mantra`},
+{ name: `Karthus`, p: `Death Defied`, q: `Lay Waste`, w: `Wall of Pain`, e:`Defile`, r:`Requiem`},
+{ name: `Kassadin`, p: `Void Stone`, q: `Null Sphere`, w: `Nether Blade`, e:`Force Pulse`, r:`Riftwalk`},
+{ name: `Katarina`, p: `Voracity`, q: `Bouncing Blade`, w: `Preparation`, e:`Shunpo`, r:`Death Lotus`},
+{ name: `Kayle`, p: `Holy Fervor`, q: `Reckoning`, w: `Divine Blessing`, e:`Righteous Fury`, r:`Intervention`},
+{ name: `Kayn`, p: `The Darkin Scythe`, q: `Reaping Slash`, w: `Blade's Reach`, e:`Shadow Step`, r:`Umbral Trespass`},
+{ name: `Kennen`, p: `Mark of the Storm`, q: `Thundering Shuriken`, w: `Electrical Surge`, e:`Lightning Rush`, r:`Slicing Maelstrom`},
+{ name: `Khazix`, p: `Unseen Threat`, q: `Taste Their Fear`, w: `Void Spike`, e:`Leap`, r:`Void Assault`},
+{ name: `Kindred`, p: `Mark of the Kindred`, q: `Dance of Arrows`, w: `Wolf's Frenzy`, e:`Mounting Dread`, r:`Lamb's Respite`},
+{ name: `Kled`, p: `Skaarl the Cowardly Lizard`, q: `Beartrap on a Rope / Pocket Pistol`, w: `Violent Tendencies`, e:`Jousting`, r:`Chaaaaaaaarge!!!`},
+{ name: `KogMaw`, p: `Icathian Surprise`, q: `Caustic Spittle`, w: `Bio-Arcane Barrage`, e:`Void Ooze`, r:`Living Artillery`},
+{ name: `LeBlanc`, p: `Sigil of Malice`, q: `Shatter Orb`, w: `Distortion`, e:`Ethereal Chains`, r:`Mimic / Mimic Shatter Orb`},
+{ name: `LeeSin`, p: `Flurry`, q: `Sonic Wave / Resonating Strike`, w: `Safeguard / Iron Will`, e:`Tempest / Cripple`, r:`Dragon's Rage`},
+{ name: `Leona`, p: `Sunlight`, q: `Shield of Daybreak`, w: `Eclipse`, e:`Zenith Blade`, r:`Solar Flare`},
+{ name: `Lillia`, p: `Dream-Laden Bough`, q: `Blooming Blows`, w: `Watch Out! Eep! `, e:`Swirlseed`, r:`Lifting Lullaby`},
+{ name: `Lissandra`, p: `Iceborn`, q: `Ice Shard`, w: `Ring of Frost`, e:`Glacial Path`, r:`Frozen Tomb`},
+{ name: `Lucian`, p: `Lightslinger`, q: `Piercing Light`, w: `Ardent Blaze`, e:`Relentless Pursuit`, r:`The Culling`},
+{ name: `Lulu`, p: `Pix`, q: ` Faerie Companion`, w: `Glitterlance`, e:`Whimsy`, r:`Help`},
+{ name: `Lux`, p: `Illumination`, q: `Light Binding`, w: `Prismatic Barrier`, e:`Lucent Singularity`, r:`Final Spark`},
+{ name: `Malphite`, p: ` Shard of the Monolith`, q: `Granite Shield`, w: `Seismic Shard`, e:`Brutal Strikes`, r:`Ground Slam`},
+{ name: `Malzahar`, p: `Void Shift`, q: `Call of the Void`, w: `Void Swarm`, e:`Malefic Visions`, r:`Nether Grasp`},
+{ name: `Maokai`, p: `Sap Magic`, q: `Bramble Smash`, w: `Twisted Advance`, e:`Sapling Toss`, r:`Nature's Grasp`},
+{ name: `MasterYi`, p: `Double Strike`, q: `Alpha Strike`, w: `Meditate`, e:`Wuju Style`, r:`Highlander`},
+{ name: `MissFortune`, p: `Love Tap`, q: `Double Up`, w: `Strut`, e:`Make It Rain`, r:`Bullet Time`},
+{ name: `Mordekaiser`, p: `Iron Man`, q: `Mace of Spades`, w: `Harvester of Sorrow`, e:`Siphon of Destruction`, r:`Children of the Grave`},
+{ name: `Morgana`, p: ` Fallen Angel`, q: `Soul Siphon`, w: `Dark Binding`, e:`Tormented Soil`, r:`Black Shield`},
+{ name: `Nami`, p: `Surging Tides`, q: `Aqua Prison`, w: `Ebb and Flow`, e:`Tidecaller's Blessing`, r:`Tidal Wave`},
+{ name: `Nasus`, p: `Soul Eater`, q: `Siphoning Strike`, w: `Wither`, e:`Spirit Fire`, r:`Fury of the Sands`},
+{ name: `Nautilus`, p: `Staggering Blow`, q: `Dredge Line`, w: `Titan's Wrath`, e:`Riptide`, r:`Depth Charge`},
+{ name: `Neeko`, p: `Inherent Glamour`, q: `Blooming Burst`, w: `Shapesplitter`, e:`Tangle-Barbs`, r:`Pop Blossom`},
+{ name: `Nidalee`, p: `Prowl`, q: `Javelin Toss / Takedown`, w: `Bushwhack / Pounce`, e:`Primal Surge / Swipe`, r:`Aspect of the Cougar`},
+{ name: `Nocturne`, p: `Umbra Blades`, q: `Duskbringer`, w: `Shroud of Darkness`, e:`Unspeakable Horror`, r:`Paranoia`},
+{ name: `Nunu`, p: `Visionary`, q: `Consume`, w: `Blood Boil`, e:`Ice Blast`, r:`Absolute Zero`},
+{ name: `Olaf`, p: `Berserker Rage`, q: `Undertow`, w: `Vicious Strikes`, e:`Reckless Swing`, r:`Ragnarok`},
+{ name: `Orianna`, p: `Clockwork Windup`, q: `Command Attack`, w: `Command Dissonance`, e:`Command Protect`, r:`Command Shockwave`},
+{ name: `Ornn`, p: `Living Forge`, q: `Volcanic Rupture`, w: `Bellows Breath`, e:`Searing Charge`, r:`Call of the Forge God`},
+{ name: `Pantheon`, p: `Aegis Protection`, q: `Spear Shot`, w: `Aegis of Zeonia`, e:`Heartseeker Strike`, r:`Grand Skyfall`},
+{ name: `Poppy`, p: ` Keeper of the Hammer`, q: `Iron Ambassador`, w: `Hammer Shock`, e:`Steadfast Presence`, r:`Heroic Charge`},
+{ name: `Pyke`, p: `Gift of the Drowned Ones`, q: `Bone Skewer`, w: `Ghostwater Dive`, e:`Phantom Undertow`, r:`Death From Below`},
+{ name: `Qiyana`, p: `Royal Privlege`, q: `Edge of Ixtal`, w: `Elemental Wrath`, e:`Terrashape`, r:`Audacity`},
+{ name: `Quinn`, p: ` Demacia's Wings`, q: `Harrier`, w: `Blinding Assault`, e:`Heightened Senses`, r:`Vault`},
+{ name: `Rakan`, p: `Fey Feathers`, q: `Gleaming Quill`, w: `Grand Entrance`, e:`Battle Dance`, r:`The Quickness`},
+{ name: `Rammus`, p: `Spiked Shell`, q: `Powerball`, w: `Defensive Ball Curl`, e:`Frenzying Taunt`, r:`Tremors`},
+{ name: `RekSai`, p: `Fury of the Xer'Sai`, q: `Queen's Wrath / Prey Seeker`, w: `Burrow / Unburrow`, e:`Furious Bite / Tunnel`, r:`Void Rush`},
+{ name: `Renekton`, p: `Reign of Anger`, q: `Cull the Meek`, w: `Ruthless Predator`, e:`Slice`, r:`Dominus`},
+{ name: `Rengar`, p: `Unseen Predator`, q: `Savagery`, w: `Battle Roar`, e:`Bola Strike`, r:`Thrill of the Hunt`},
+{ name: `Riven`, p: `Runic Blade`, q: `Broken Wings`, w: `Ki Burst`, e:`Valor`, r:`Blade of the Exile / Wind Slash`},
+{ name: `Rumble`, p: `Junkyard Titan`, q: `Flamespitter`, w: `Scrap Shield`, e:`Electro Harpoon`, r:`The Equalizer`},
+{ name: `Ryze`, p: `Arcane Mastery`, q: `Overload`, w: `Rune Prison`, e:`Spell Flux`, r:`Realm Warp`},
+{ name: `Samira`, p: `Daredevil Impulse`, q: `Flair`, w: `Blade Whirl`, e:`Wild Rush`, r:`Infero Trigger`},
+{ name: `Sejuani`, p: ` Fury of the North`, q: `Fury of the North`, w: `Arctic Assault`, e:`Winter's Wrath`, r:`Permafrost`},
+{ name: `Senna`, p: `Absolution`, q: `Piercing Darkness`, w: `Last Embrace`, e:`Curse of the Black Mist`, r:`Dawning Shadow`},
+{ name: `Seraphine`, p: `Stage Presence`, q: `High Note`, w: `Surround Sound`, e:`Beat Drop`, r:`Encore`},
+{ name: `Sett`, p: `Pit Grit`, q: `Knuckle Down`, w: `Haymaker`, e:`Facebreaker`, r:`The Show Stopper`},
+{ name: `Shaco`, p: `Backstab`, q: `Deceive`, w: `Jack in the Box`, e:`Two-Shiv Poison`, r:`Hallucinate`},
+{ name: `Shen`, p: `Ki Barrier`, q: `Twilight Assault`, w: `Spirit's Refuge`, e:`Shadow Dash`, r:`Stand United`},
+{ name: `Shyvana`, p: `Fury of the Dragonborn`, q: `Twin Bite`, w: `Burnout`, e:`Flame Breath`, r:`Dragon's Descent`},
+{ name: `Singed`, p: `Noxious Slipstream`, q: `Poison Trail`, w: `Mega Adhesive`, e:`Fling`, r:`Insanity Potion`},
+{ name: `Sion`, p: `Glory in Death / Death Surge`, q: `Decimating Smash`, w: `Soul Furnace`, e:`Roar of the Slayer`, r:`Unstoppable Onslaught`},
+{ name: `Sivir`, p: `Fleet of Foot`, q: `Boomerang Blade`, w: `Ricochet`, e:`Spell Shield`, r:`On the Hunt`},
+{ name: `Skarner`, p: `Crystal Spires`, q: `Crystal Slash`, w: `Crystalline Exoskeleton`, e:`Fracture`, r:`Impale`},
+{ name: `Sona`, p: ` Maven of the Strings`, q: `Power Chord`, w: `Hymn of Valor`, e:`Aria of Perseverance`, r:`Song of Celerity`},
+{ name: `Soraka`, p: `Salvation`, q: `Starcall`, w: `Astral Infusion`, e:`Equinox`, r:`Wish`},
+{ name: `Swain`, p: `Carrion Renewal`, q: `Decrepify`, w: `Nevermove`, e:`Torment`, r:`Ravenous Flock`},
+{ name: `Sylas`, p: `Petricite Burst`, q: `Chain Leash`, w: `Kingslayer`, e:`Abscond / Abduct`, r:`Hijack`},
+{ name: `Syndra`, p: `Transcendent`, q: `Dark Sphere`, w: `Force of Will`, e:`Scatter the Weak`, r:`Unleashed Power`},
+{ name: `TahmKench`, p: `An Acquired Taste`, q: `Tongue Lash`, w: `Devour / Regurgitate`, e:`Thick Skin`, r:`Abyssal Voyage`},
+{ name: `Taliyah`, p: `Rock Surfing`, q: `Threaded Volley`, w: `Seismic Shove`, e:`Unraveled Earth`, r:`Weaver's Wall`},
+{ name: `Talon`, p: `Blade's End`, q: `Noxian Diplomacy`, w: `Rake`, e:`Assassin's Path`, r:`Shadow Assault`},
+{ name: `Taric`, p: `Bravado`, q: `Starlight's Touch`, w: `Bastion`, e:`Dazzle`, r:`Cosmic Radiance`},
+{ name: `Teemo`, p: `Guerrilla Warfare`, q: `Blinding Dart`, w: `Move Quick`, e:`Toxic Shot`, r:`Noxious Trap`},
+{ name: `Thresh`, p: `Damnation`, q: `Death Sentence`, w: `Dark Passage`, e:`Flay`, r:`The Box`},
+{ name: `Tristana`, p: `Draw a Bead`, q: `Rapid Fire`, w: `Rocket Jump`, e:`Explosive Charge`, r:`Buster Shot`},
+{ name: `Trundle`, p: `King's Tribute`, q: `Chomp`, w: `Frozen Domain`, e:`Pillar of Ice`, r:`Subjugate`},
+{ name: `Tryndamere`, p: `Battle Fury`, q: `Bloodlust`, w: `Mocking Shout`, e:`Spinning Slash`, r:`Undying Rage`},
+{ name: `TwistedFate`, p: `Loaded Dice`, q: `Wild Cards`, w: `Pick a Card`, e:`Stacked Deck`, r:`Destiny`},
+{ name: `Twitch`, p: `Deadly Venom`, q: `Ambush`, w: `Venom Cask`, e:`Contaminate`, r:`Spray and Pray`},
+{ name: `Udyr`, p: `Monkey's Agility`, q: `Tiger Stance`, w: `Turtle Stance`, e:`Bear Stance`, r:`Phoenix Stance`},
+{ name: `Urgot`, p: `Echoing Flames`, q: `Corrosive Charge`, w: `Purge`, e:`Disdain`, r:`Fear Beyond Death`},
+{ name: `Varus`, p: `Living Vengeance`, q: `Piercing Arrow`, w: `Blighted Quiver`, e:`Hail of Arrows`, r:`Chain of Corruption`},
+{ name: `Vayne`, p: `Night Hunter`, q: `Tumble`, w: `Silver Bolts`, e:`Condemn`, r:`Final Hour`},
+{ name: `Veigar`, p: `Phenomenal Evil Power`, q: `Baleful Strike`, w: `Dark Matter`, e:`Event Horizon`, r:`Primordial Burst`},
+{ name: `Velkoz`, p: `Organic Deconstruction`, q: `Plasma Fission`, w: `Void Rift`, e:`Tectonic Disruption`, r:`Life Form Disintegration Ray`},
+{ name: `Vi`, p: `Blast Shield`, q: `Vault Breaker`, w: `Denting Blows`, e:`Excessive Force`, r:`Assault and Battery`},
+{ name: `Viktor`, p: `Glorious Evolution`, q: `Siphon Power`, w: `Gravity Field`, e:`Death Ray`, r:`Chaos Storm`},
+{ name: `Vladimir`, p: `Crimson Pact`, q: `Transfusion`, w: `Sanguine Pool`, e:`Tides of Blood`, r:`Hemoplague`},
+{ name: `Volibear`, p: `Chosen of the Storm`, q: `Rolling Thunder`, w: `Frenzy`, e:`Majestic Roar`, r:`Thunder Claws`},
+{ name: `Warwick`, p: `Eternal Hunger`, q: `Jaws of the Beast`, w: `Blood Hunt`, e:`Primal Howl`, r:`Infinite Duress`},
+{ name: `Wukong`, p: `Stone Skin`, q: `Crushing Blow`, w: `Decoy`, e:`Nimbus Strike`, r:`Cyclone`},
+{ name: `Xayah`, p: `Clean Cuts`, q: `Double Daggers`, w: `Deadly Plumage`, e:`Bladecaller`, r:`Featherstorm`},
+{ name: `Xerath`, p: `Mana Surge`, q: `Arcanopulse`, w: `Eye of Destruction`, e:`Shocking Orb`, r:`Rite of the Arcane`},
+{ name: `XinZhao`, p: `Determination`, q: `Three Talon Strike`, w: `Wind Becomes Lightning`, e:`Audacious Charge`, r:`Crescent Guard`},
+{ name: `Yasuo`, p: `Way of the Wanderer`, q: `Steel Tempest`, w: `Wind Wall`, e:`Sweeping Blade`, r:`Last Breath`},
+{ name: `Yone`, p: `Way of the Hunter`, q: `Mortal Steel`, w: `Spirit Cleave`, e:`Soul Unbound`, r:`Fate Sealed`},
+{ name: `Yorick`, p: ` Shepherd of Souls`, q: `Shepherd of Souls`, w: `Last Rites`, e:`Dark Procession`, r:`Mourning Mist`},
+{ name: `Yuumi`, p: `Bop 'n' Block`, q: `Prowling Projectile`, w: `You and Me!`, e:`Zoomies`, r:`Final Chapter`},
+{ name: `Zac`, p: `Cell Division`, q: `Stretching Strikes`, w: `Unstable Matter`, e:`Elastic Slingshot`, r:`Let's Bounce!`},
+{ name: `Zed`, p: `Contempt for the Weak`, q: `Razor Shuriken`, w: `Living Shadow`, e:`Shadow Slash`, r:`Death Mark`},
+{ name: `Ziggs`, p: `Short Fuse`, q: `Bouncing Bomb`, w: `Satchel Charge`, e:`Hexplosive Minefield`, r:`Mega Inferno Bomb`},
+{ name: `Zilean`, p: `Time in a Bottle`, q: `Time Bomb`, w: `Rewind`, e:`Time Warp`, r:`Chronoshift`},
+{ name: `Zoe`, p: `More Sparkles!`, q: `Paddle Star`, w: `Spell Thief`, e:`Sleepy Trouble Bubble`, r:`Portal Jump`},
+{ name: `Zyra`, p: ` Rise of the Thorns`, q: `Garden of Thorns`, w: `Deadly Spines`, e:`Rampant Growth`, r:`Grasping Roots`},
 
       ],
       tempChampUwU: {
