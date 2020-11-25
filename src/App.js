@@ -385,12 +385,12 @@ export default class App extends React.Component {
   
   handleSubmit(id, event) {
     console.log('Current Value is: ' + this.state.value.value);
-    fetch(`http://ddragon.leagueoflegends.com/cdn/10.23.1/data/en_US/champion/${this.state.value.value}.json`) 
-    .then(response => response.json())
-    .then(json => {
-      this.setState({
-        test: JSON.parse(JSON.stringify(json)),
-      })
+//     fetch(`http://ddragon.leagueoflegends.com/cdn/10.23.1/data/en_US/champion/${this.state.value.value}.json`) 
+//     .then(response => response.json())
+//     .then(json => {
+//       this.setState({
+//         test: JSON.parse(JSON.stringify(json)),
+//       })
 
       var containsRed = id;
       //var containsBlue = event.target.id;
@@ -486,7 +486,7 @@ export default class App extends React.Component {
 
     }
     this.setState({value: ""});
-    });
+ //   });
 
      event.preventDefault();
   }
