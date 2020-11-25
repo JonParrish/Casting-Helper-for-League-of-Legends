@@ -528,7 +528,7 @@ export default class App extends React.Component {
         <form onSubmit={this.handleSubmit}>
           <label>
             Champion Lookup: 
-            <Select value="testV" onChange={this.handleChange} ref="chosenValue" options={this.state.options} />
+            <Select value="testV" onChange={this.handleChange} options={this.state.options} />
           </label>
           <br />
           <button  style = {{ width: '40%', padding: '10px'}} onClick={(e) => this.handleSubmit('blue', e)}>Add to Blue</button>
@@ -548,8 +548,7 @@ export default class App extends React.Component {
               }}>
         <ul>
         <p className="content">
-          <p>Champion Info:</p> 
-            <ul>
+          <label>Champion Info:</label> 
               <li>Name: {this.state.allyChampions[0]} </li>
               <li>Q: {this.state.allyChampions[1]}</li>
               <li>W: {this.state.allyChampions[2]}</li>
@@ -580,7 +579,6 @@ export default class App extends React.Component {
               <li>E: {this.state.allyChampions[23]}</li>
               <li>R: {this.state.allyChampions[24]}</li>
               <br></br>
-            </ul>
             </p>
           </ul>
         </div>
@@ -601,7 +599,6 @@ export default class App extends React.Component {
           <ul>
             <p className="content">
             <label>Champion Info:</label> 
-              <ul>
                 <li>Name: {this.state.enemyChampions[0]} </li>
                 <li>Q: {this.state.enemyChampions[1]}</li>
                 <li>W: {this.state.enemyChampions[2]}</li>
@@ -632,7 +629,6 @@ export default class App extends React.Component {
                 <li>E: {this.state.enemyChampions[23]}</li>
                 <li>R: {this.state.enemyChampions[24]}</li>
                 <br></br>
-              </ul>
               </p>
             </ul>
         </div>
